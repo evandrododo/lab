@@ -1,0 +1,8 @@
+# Liberar acesso externo
+AuthName "Area Restrita!"
+AuthType Basic
+<Limit GET POST>
+  order allow,deny
+  allow from all
+</Limit>
+
